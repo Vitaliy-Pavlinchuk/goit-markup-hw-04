@@ -135,7 +135,7 @@ body {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: currentColor;
+  fill:currentColor;
 }
 
 .envelope{
@@ -397,7 +397,6 @@ body {
 .list-clients:not(:last-child){
   margin-right: 30px;
 }
-  
 
 .client-item{
 display: flex;
@@ -409,12 +408,12 @@ height: 92px;
 
 color: var(--social-imag-color);
 border: 1px solid var(--social-imag-color);
-box-sizing: border-box;
 border-radius: 4px;
 }
 
 .client-item:hover, .client-item:focus {
   color: var(--accent-color);
+  border: 1px solid var(--accent-color)
 }
 .clients{
   width: 106px;
